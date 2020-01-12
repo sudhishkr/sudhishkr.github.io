@@ -43,16 +43,18 @@
 				if("whoami" == command)
 				{
 					outCount++;
-					$("#terminal").append('<span id = "output'+ outCount +'"> Hi, <font color = "#0f0">I\'m Sudhish </font><br>\
-							I am a Software Engineer at Oracle. Prior to this I was working at Qualcomm Research, Alcatel-Lucent, ABB-Robotics, ABB-SAS and AT&S. I have a Masters Degree from University of California (Santa Barbara) & a Bachelors Degree from VIT (Vellore)</span><br id = "out'+ outCount +'">');
+					$("#terminal").append('<span id = "output'+ outCount +'"> Hi, <font color = "#0f0">I\'m Sudhish Kasaba Ramesh</font><br>\
+							I am a Software Engineer by profession. I am originally from Bangalore. I currently live (and work) in San Francisco.</span><br id = "out'+ outCount +'">');
 				}
 				else if("ls" == command)
 				{
 					outCount++;
 					$("#terminal").append('<span id = "output'+ outCount +'"> \
-							<a href="https://www.linkedin.com/in/sudhishkr"> LinkedIn </a>\
-							<a href="https://github.com/sudhishkr/"> GitHub </a>\
-							<a href="https://stackoverflow.com/users/1249267/sudhishkr"> StackOverflow </a>\
+							<a href="http://sudhish.herokuapp.com">  Website  </a>\
+							<a href="http://www.twitter.com/sudhishkr">  Twitter  </a>\
+							<a href="https://www.linkedin.com/in/sudhishkr">  LinkedIn  </a>\
+							<a href="https://github.com/sudhishkr/">  GitHub  </a>\
+							<a href="https://stackoverflow.com/users/1249267/sudhishkr">  StackOverflow  </a>\
 							</span><br id = "out'+ outCount +'">');
 				}
 				else if("clear" == command)
@@ -86,13 +88,11 @@
 
 	<body>
 		<div class="putty" id = "terminal"> 
-		login as: sudhishkr </br></br>
+		login to: sudhishkr </br></br>
+
+		Type in Linux commands to know more about me: <br><br>
 		
-		Software Engineer by profession <br><br>
-		
-		Type in Linux commands to know more about me <br><br>
-		
-		ls - List Directory<br>
+		ls - List Options<br>
 		clear - Clear Terminal<br>
 		whoami - More Info about me<br><br>
 		

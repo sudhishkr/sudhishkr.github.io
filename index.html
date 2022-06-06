@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title> Sudhish Kasaba Ramesh </title>
+		<title> SudhishKR </title>
 		<link href="stylesheets/styles.css" type="text/css" rel="stylesheet">
 		
 	</head>
@@ -43,14 +43,26 @@
 				if("whoami" == command)
 				{
 					outCount++;
-					$("#terminal").append('<span id = "output'+ outCount +'"> Hi, <font color = "#0f0">I\'m Sudhish Kasaba Ramesh</font><br>\
-							I am a Software Engineer by profession. I am originally from Bangalore. I currently live (and work) in San Francisco.</span><br id = "out'+ outCount +'">');
+					$("#terminal").append('<span id = "output'+ outCount +'"> Hi, <font color = "#0f0">I\'m Sudhish!</font><br><br>\
+							I am a Software Engineer by profession. \
+							I am originally from Bangalore. \
+							I currently live (and work) in San Francisco.<br><br>\
+							I enjoy reading books - you can check out my <a href="http://www.sudhishkr.com/books"><b>"book list"</b></a>.\
+							I also keep a log of my reads on interesting <a href="http://www.sudhishkr.com/articles"><b>"tech related articles"</b></a>\
+							and resonating <a href="http://www.sudhishkr.com/quotes"><b>"quotes"</b></a>.\
+							In my remaining free time, I enjoy outdoor-sports like Basketball & Swimming. I also enjoy playing and\
+							listening to percussion-instruments like <a href="https://en.wikipedia.org/wiki/Tabla">Tabla</a>\
+							, <a href="https://en.wikipedia.org/wiki/Ghatam">Ghatam</a>\
+							, <a href="https://en.wikipedia.org/wiki/Mridangam">Mridangam</a> and\
+							<a href="https://en.wikipedia.org/wiki/Drum_kit">Drums</a>.\
+							</span><br id = "out'+ outCount +'">'
+					);
 				}
 				else if("ls" == command)
 				{
 					outCount++;
 					$("#terminal").append('<span id = "output'+ outCount +'"> \
-							<a href="http://sudhishkr.herokuapp.com">  Website  </a>\
+							<a href="http://www.sudhishkr.com">  Website  </a>\
 							<a href="http://www.twitter.com/sudhishkr">  Twitter  </a>\
 							<a href="https://www.linkedin.com/in/sudhishkr">  LinkedIn  </a>\
 							<a href="https://github.com/sudhishkr/">  GitHub  </a>\

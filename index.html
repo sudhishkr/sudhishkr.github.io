@@ -43,30 +43,35 @@
 				if("whoami" == command)
 				{
 					outCount++;
-					$("#terminal").append('<span id = "output'+ outCount +'"> Hi, <font color = "#ff0">I\'m Sudhish!</font><br><br>\
+					$("#terminal").append('<span id = "output'+ outCount +'"> <br></br>\
+							Hi, <font color = "#ff0">I\'m Sudhish!</font><br><br>\
 							I am a Software Engineer by profession. \
 							I am originally from <a href="https://en.wikipedia.org/wiki/Bangalore">Bangalore</a>. \
 							I currently live (and work) in <a href="https://en.wikipedia.org/wiki/San_Francisco">San Francisco</a>.<br><br>\
-							I enjoy reading books - you can check out my <a href="http://www.sudhishkr.com/books"><b>"book list"</b></a>.\
-							I also keep a log of my reads on interesting <a href="http://www.sudhishkr.com/articles"><b>"tech related articles"</b></a>\
-							and resonating <a href="http://www.sudhishkr.com/quotes"><b>"quotes"</b></a>.\
+                    		On my personal website I maintain details about my:\
+							<a href="https://sudhishkr.com/work"><b>work</b></a>,\
+							<a href="https://sudhishkr.com/education"><b>education</b></a>,\
+							<a href="https://sudhishkr.com/publications"><b>publications</b></a>,\
+							<a href="https://sudhishkr.com/projects"><b>projects</b></a> &\
+							<a href="https://sudhishkr.com/blog"><b>blog</b></a>.\
+							I also keep a log of my interesting reads like: <a href="/books"><b>books</b></a>, <a href="/articles"><b>articles</b></a> (<i>tech stuff</i>) & <a href="/quotes"><b>quotes</b></a>.<br></br>\
 							In my remaining free time, I enjoy outdoor-sports like Basketball & Swimming. I also enjoy playing and\
 							listening to percussion-instruments like <a href="https://en.wikipedia.org/wiki/Tabla">Tabla</a>\
 							, <a href="https://en.wikipedia.org/wiki/Ghatam">Ghatam</a>\
 							, <a href="https://en.wikipedia.org/wiki/Mridangam">Mridangam</a> and\
-							<a href="https://en.wikipedia.org/wiki/Drum_kit">Drums</a>.\
+							<a href="https://en.wikipedia.org/wiki/Drum_kit">Drums</a>.<br></br>\
 							</span><br id = "out'+ outCount +'">'
 					);
 				}
 				else if("ls" == command)
 				{
 					outCount++;
-					$("#terminal").append('<span id = "output'+ outCount +'"> \
-							<a href="http://www.sudhishkr.com">  Website  </a>\
-							<a href="http://www.twitter.com/sudhishkr">  Twitter  </a>\
+					$("#terminal").append('<span id = "output'+ outCount +'"> <br></br>\
+							<a href="https://www.sudhishkr.com">  Website  </a>\
+							<a href="https://www.twitter.com/sudhishkr">  Twitter  </a>\
 							<a href="https://www.linkedin.com/in/sudhishkr">  LinkedIn  </a>\
 							<a href="https://github.com/sudhishkr/">  GitHub  </a>\
-							<a href="https://stackoverflow.com/users/1249267/sudhishkr">  StackOverflow  </a>\
+							<a href="https://stackoverflow.com/users/1249267/sudhishkr">  StackOverflow  </a><br></br>\
 							</span><br id = "out'+ outCount +'">');
 				}
 				else if("clear" == command)
